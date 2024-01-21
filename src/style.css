@@ -1,0 +1,91 @@
+
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url(./responsive.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+:root{
+
+  --main-bg-color:hsl(47, 88%, 63%);
+  --bg-pill-color:hsl(47, 88%, 63%);
+  --font-family-base: "Figtree", sans-serif;
+  --text-color-paragraph: hsl(0, 0%, 50%);
+}
+
+* {
+    min-width: 0;
+    font: inherit;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background-color: var(--main-bg-color);
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    text-wrap: balance;
+  }
+  
+  p{
+   text-wrap: pretty;
+  }
+
+
+  .h__full {
+   height: 100dvh;
+  }
+
+
+
+.img-card {
+  border-radius: 8%;                        
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+
+.bg-tag {
+  background-color: var(--bg-pill-color);
+}
+
+.text-tag {
+  color:hsl(0, 0%, 7%);
+
+
+}
+
+h2 {
+  font-family: var(--font-family-base);
+  font-weight: 800;
+}
+
+h2:hover {
+  color: var(--main-bg-color);
+}
+
+p {
+  color: var(--text-color-paragraph);
+  font-weight: 600;
+}
+
+p,span{
+  font-family: var(--font-family-base);
+}
+

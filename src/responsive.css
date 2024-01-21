@@ -1,0 +1,46 @@
+
+@media (min-width:320px) and (max-width: 575.98px) { 
+
+    .w-card {
+        width: 20rem !important;
+    }
+
+    .img-card {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+        object-fit: none;
+        height: 200px;
+    }
+ }
+
+
+@media (max-width: 767.98px) { 
+
+
+
+}
+
+
+@media (max-width: 991.98px) {  }
+
+
+@media (max-width: 1199.98px) { 
+   
+ }
+
+
+@media (max-width: 1399.98px) { 
+
+    .w-card {
+        width: 22rem;
+    }
+   
+
+ }
+
+
+ @media (max-width: 2399.98px) { 
+
+
+
+ }
